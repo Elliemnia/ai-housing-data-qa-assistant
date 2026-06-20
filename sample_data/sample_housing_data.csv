@@ -1,0 +1,33 @@
+zip_code,notice_type,eviction_cause,case_count,month
+90064,Nonpayment of Rent,Rent Owed,24,January
+90034,Lease Violation,Unauthorized Occupant,12,January
+90025,Nonpayment of Rent,Rent Owed,31,January
+90066,Owner Move-In,Owner Occupancy,8,January
+90064,Lease Violation,Nuisance,15,February
+90034,Nonpayment of Rent,Rent Owed,27,February
+90025,Nonpayment of Rent,Rent Owed,35,February
+90066,Lease Violation,Nuisance,10,February
+90064,Nonpayment of Rent,Rent Owed,29,March
+90034,Nonpayment of Rent,Rent Owed,22,March
+90025,Lease Violation,Nuisance,14,March
+90066,Owner Move-In,Owner Occupancy,9,March
+90064,Nonpayment of Rent,Rent Owed,33,April
+90034,Lease Violation,Unauthorized Occupant,11,April
+90025,Nonpayment of Rent,Rent Owed,38,April
+90066,Lease Violation,Nuisance,13,April
+90064,Nonpayment of Rent,Rent Owed,36,May
+90034,Nonpayment of Rent,Rent Owed,25,May
+90025,Lease Violation,Nuisance,17,May
+90066,Owner Move-In,Owner Occupancy,7,May
+90064,Nonpayment of Rent,Rent Owed,41,June
+90034,Lease Violation,Unauthorized Occupant,13,June
+90025,Nonpayment of Rent,Rent Owed,40,June
+90066,Lease Violation,Nuisance,12,June
+90064,Nonpayment of Rent,Rent Owed,39,July
+90034,Nonpayment of Rent,Rent Owed,28,July
+90025,Lease Violation,Nuisance,18,July
+90066,Owner Move-In,Owner Occupancy,10,July
+90064,Nonpayment of Rent,Rent Owed,44,August
+90034,Lease Violation,Nuisance,16,August
+90025,Nonpayment of Rent,Rent Owed,42,August
+90066,Lease Violation,Unauthorized Occupant,14,August
