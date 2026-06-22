@@ -6,6 +6,12 @@ Built with Python, Streamlit, Pandas, Plotly, and Claude API.
 
 ---
 
+## Live Demo
+
+https://ai-housing-data-app-assistant-gpgz9wj2zjmovv5swwcid5.streamlit.app/
+
+---
+
 ## Features
 
 - Upload CSV datasets
