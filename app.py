@@ -17,6 +17,49 @@ st.set_page_config(
     layout="wide"
 )
 
+st.markdown(
+    """
+    <style>
+    .main {
+        background-color: #f8fafc;
+    }
+
+    h1, h2, h3 {
+        color: #1e293b;
+    }
+
+    .stMetric {
+        background-color: #ffffff;
+        padding: 18px;
+        border-radius: 14px;
+        border: 1px solid #e2e8f0;
+        box-shadow: 0 1px 4px rgba(15, 23, 42, 0.08);
+    }
+
+    .stButton > button {
+        border-radius: 10px;
+        border: 1px solid #2563eb;
+        color: white;
+        background-color: #2563eb;
+        padding: 0.5rem 1rem;
+        font-weight: 600;
+    }
+
+    .stDownloadButton > button {
+        border-radius: 10px;
+        border: 1px solid #0f766e;
+        background-color: #0f766e;
+        color: white;
+        font-weight: 600;
+    }
+
+    section[data-testid="stSidebar"] {
+        background-color: #eef2ff;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 MONTH_ORDER = [
     "January", "February", "March", "April", "May", "June",
@@ -365,10 +408,13 @@ def render_app():
     render_sidebar()
 
     st.title("AI Housing Data Q&A Assistant")
-    st.write(
-        "Upload a housing CSV file, explore quick charts, check dataset health, "
-        "and ask plain-English questions about the data."
-    )
+
+    st.markdown(
+    """
+    Turn housing datasets into clear insights, charts, reports, and plain-English answers.
+    Designed for housing departments, nonprofit teams, civic tech projects, and program managers.
+    """
+)
 
     uploaded_file = st.file_uploader(
     "Upload your CSV or Excel file",
