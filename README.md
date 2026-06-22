@@ -1,76 +1,137 @@
 # AI Housing Data Q&A Assistant
 
-An AI-powered data Q&A tool that helps public-sector and nonprofit teams ask plain-English questions about housing datasets.
+AI-powered data assistant that allows users to upload housing datasets, explore trends, generate insights, and ask plain-English questions about the data.
 
-## Project Overview
+Built with Python, Streamlit, Pandas, Plotly, and Claude API.
 
-Many housing departments, nonprofits, and civic organizations work with structured data but do not always have technical staff available to analyze it quickly.
-
-This project demonstrates how AI can make data exploration easier for non-technical stakeholders by allowing users to upload a CSV file, view key metrics and charts, check dataset health, and ask plain-English questions about the data.
-
-## Live Demo
-
-Coming soon after deployment.
+---
 
 ## Features
 
-- Upload CSV housing datasets
-- Preview uploaded data
-- View key metrics such as total cases, top ZIP code, top eviction cause, and highest month
-- Display visual charts by month, ZIP code, and eviction cause
-- Run a basic dataset health check
-- Ask plain-English questions about the dataset
-- Use Claude API for live AI responses
-- Includes demo fallback mode when API credits are unavailable
-- Download generated answers as text
-- Maintain Q&A history during the session
+- Upload CSV datasets
+- Interactive filtering by ZIP code, month, and eviction cause
+- Dataset health check
+- Interactive charts and visualizations
+- Quick data insights
+- Executive summary generation
+- Ask natural language questions about the dataset
+- Chat mode with follow-up questions
+- Download answers as TXT
+- Download answers as PDF
+- Download filtered dataset as CSV
+- Executive report generation
 
-## Tech Stack
+---
+
+## Technologies
 
 - Python
 - Streamlit
 - Pandas
+- Plotly
+- FPDF
+- Python-dotenv
 - Anthropic Claude API
-- python-dotenv
-- Git & GitHub
+
+---
+
+## Screenshots
+
+### Dashboard Overview
+
+![Dashboard](screenshots/dashboard_overview.png)
+
+---
+
+### Quick Insights
+
+![Insights](screenshots/quick_insights.png)
+
+---
+
+### Q&A History and Chat Mode
+
+![Chat](screenshots/qa_chat_mode.png)
+
+---
+
+### Export Reports
+
+![Export](screenshots/export_reports.png)
+
+---
+
+## Project Structure
+
+```
+ai-housing-data-qa-assistant/
+│
+├── screenshots/
+├── sample_data/
+├── app.py
+├── requirements.txt
+├── .env.example
+├── .gitignore
+├── README.md
+```
+
+---
+
+## Installation
+
+Clone repository:
+
+```bash
+git clone https://github.com/Elliemnia/ai-housing-data-qa-assistant.git
+```
+
+Move into folder:
+
+```bash
+cd ai-housing-data-qa-assistant
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run application:
+
+```bash
+streamlit run app.py
+```
+
+---
 
 ## Example Questions
 
-Users can ask questions such as:
-
-- Which ZIP codes have the highest eviction activity?
-- What is the most common eviction cause?
+- Which ZIP code has the highest activity?
+- Which eviction cause appears most frequently?
+- Which month has the highest number of cases?
 - Summarize trends by month.
-- Which areas may need additional support?
-- What patterns should housing managers monitor?
-- What risks do you see in this dataset?
-- What recommendations would you make?
-- Explain the findings for non-technical stakeholders.
+- What should housing program managers focus on first?
 
-## Sample Dataset
+---
 
-The repository includes a sample housing dataset with 32 records across multiple ZIP codes, eviction causes, and months.
+## Future Improvements
 
-The sample data is designed to demonstrate:
+- Connect to live Claude API
+- Multiple dataset support
+- SQLite database integration
+- Dashboard analytics
+- Authentication system
+- Export charts to PDF
 
-- Repeated eviction activity by ZIP code
-- Rent-related eviction patterns
-- Monthly case trends
-- Common eviction causes
-- Public-sector reporting use cases
+---
 
-## Repository Structure
+## Author
 
-```text
-ai-housing-data-qa-assistant/
+**Ellie Nia**
 
-├── app.py
-├── requirements.txt
-├── README.md
-├── .env.example
-├── .gitignore
-│
-├── sample_data/
-│   └── sample_housing_data.csv
-│
-└── screenshots/
+Data Analytics | Python | SQL | Power BI
+
+GitHub:
+
+https://github.com/Elliemnia
