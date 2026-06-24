@@ -10,6 +10,7 @@ Built with Python, Streamlit, Pandas, Plotly, and Claude API.
 
 https://ai-housing-data-app-assistant-gpgz9wj2zjmovv5swwcid5.streamlit.app/
 
+Note: This app is hosted on Streamlit Community Cloud and may take a few seconds to wake up if inactive.
 ---
 
 ## Features
